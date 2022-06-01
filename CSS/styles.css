@@ -166,8 +166,17 @@ a{
     height: 40px;
 }
 
+.icon--small{
+    width: 30px;
+    height: 30px;
+}
+
 .icon--primary{
     fill: var(--color-primary);
+}
+
+.icon--white{
+    fill: #fff;
 }
 
 .icon-container{
@@ -179,6 +188,11 @@ a{
     justify-content: center;
     align-items: center;
 }
+
+.icon-container--accent{
+    background: var(--color-accent);
+}
+
 
 /* Input */
 .input{
@@ -436,3 +450,16 @@ a{
         font-size: 1.6rem;
     }
 }
+
+/* Grids */
+.grid{
+    display: grid;
+}
+
+@media screen and (min-width:768px) {
+    .grid--1x2{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+
