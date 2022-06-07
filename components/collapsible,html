@@ -1,0 +1,15 @@
+<div class="collapsible collapsible--expanded">
+  <header class="collapsible__header">
+    <h2 class="collapsible__heading">Item 2</h2>
+    <img
+      src="images/chevron.svg"
+      class="icon icon--white collapsible__chevron"
+      alt=""
+    />
+  </header>
+  <div class="collapsible__content">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit repudiandae
+    nemo consequuntur omnis veniam beatae cupiditate maiores nam sunt dolor.
+  </div>
+</div>
+<script src="js/main.js"></script>
